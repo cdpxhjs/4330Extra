@@ -92,7 +92,7 @@ public class LexicalAnalyzer {
 		"auto","double","int","struct","break","else","long","switch",
 		"case","enum","register","typedef","char","return","union","const",
 		"extern","float","short","unsigned","continue","for","signed","void",
-		"default","goto","sizeof","volatile","do","if","static","while"
+		"default","goto","sizeof","volatile","do","if","static","while","string"
 	};
 
 	private boolean flag = false;//distinguish strings in double quote marks

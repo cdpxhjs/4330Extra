@@ -38,6 +38,7 @@ public class Type {
 	public static final String IF = "if";
 	public static final String STATIC = "static";
 	public static final String WHILE = "while";
+	public static final String STRING = "string";
 	//Mathematics operations
 	public static final String ASSIGN = "ASSIGN";
 	public static final String ADD = "ADD";//+

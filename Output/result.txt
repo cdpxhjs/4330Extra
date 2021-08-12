@@ -1,3 +1,13 @@
+<int,int>
+<ID,@x>
+<ASSIGN,=>
+<NUM,0>
+<SEMICOLON,;>
+<int,int>
+<ID,@y>
+<ASSIGN,=>
+<NUM,1>
+<SEMICOLON,;>
 <ID,@x>
 <ASSIGN,=>
 <ID,@y>

@@ -135,11 +135,23 @@ public class SyntaxParser {
 		case Type.ASSIGN:
 			return "=";
 		case Type.INT:
-			return "int";	
+			return "<int>";	
 		case Type.WHILE:
-			return "while";	
+			return "<while>";	
 		case Type.VAR:
 			return "<var>";
+		case Type.CHAR:
+			return "<char>";
+		case Type.DOUBLE:
+			return "<double>";
+		case Type.FLOAT:
+			return "<float>";
+		case Type.LONG:
+			return "<long>";
+		case Type.SHORT:
+			return "<short>";
+		case Type.STRING:
+			return "<string>";
 		/*	
 		case Type.POUND:
 			return "#";	

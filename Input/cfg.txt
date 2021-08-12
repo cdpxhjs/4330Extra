@@ -1,4 +1,5 @@
 S'->S
-S->while ( B ) S ;|if ( B ) S ;|if ( B ) S ; else S ;|<id> = E|S ; S
-B->B >= B|<num>|<id>
-E->E + E|E * E|<num>|<id>
+S->if ( B ) S ;|if ( B ) S ; else S ;|<id> = E|S ; S|<var> = E|S ; S|N <id> = E|S ; S
+B->B >= B|<num>|<id>|<var>|N <num>
+E->E + E|E * E|<num>|<id>|<var>|N <num>
+N-><int>|<string>|<char>|<double>|<float>|<long>|<short>

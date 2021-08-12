@@ -46,7 +46,7 @@ public class CFG {//Context Free Grammar
 				"auto","double","int","struct","break","else","long","switch",
 				"case","enum","register","typedef","char","return","union","const",
 				"extern","float","short","unsigned","continue","for","signed","void",
-				"default","goto","sizeof","volatile","do","if","static","while"
+				"default","goto","sizeof","volatile","do","if","static","while","string"
 		};
 		for(String k:keyword){
 			keywords.add(k);
@@ -56,7 +56,7 @@ public class CFG {//Context Free Grammar
 		//B->B >= B|<num>|<id>
 		//E->E+E|E*E|<num>|<id>
 		//add non-terminals
-		VN.add("S'");VN.add("S");VN.add("B");VN.add("E");
+		VN.add("S'");VN.add("S");VN.add("B");VN.add("E");VN.add("N");
 		VT.add("if");
 		VT.add("else");
 		VT.add(";");
@@ -64,6 +64,13 @@ public class CFG {//Context Free Grammar
 		VT.add(">=");
 		VT.add("<num>");
 		VT.add("<id>");
+		VT.add("<int>");
+		VT.add("<char>");
+		VT.add("<double>");
+		VT.add("<float>");
+		VT.add("<long>");
+		VT.add("<short>");
+		VT.add("<string>");
 		
 		VT.add("<var>");
 		
@@ -73,7 +80,6 @@ public class CFG {//Context Free Grammar
 		VT.add(")");
 		
 		VT.add("while");
-		
 		/*VT.add("#");
 		VT.add("include");
 		VT.add("main");
